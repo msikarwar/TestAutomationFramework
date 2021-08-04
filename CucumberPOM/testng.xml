@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WebLink" parallel="tests"
+	thread-count="2" configfailurepolicy="continue">
+	<test name="Orange HRM site" annotations="JDK"
+		preserve-order="true">
+		<classes>
+			<class name="Runners.TestRunner" />
+		</classes>
+	</test>
+	<test name="Orange HRM site1" annotations="JDK"
+		preserve-order="true">
+		<classes>
+			<class name="Runners.TestRunner" />
+		</classes>
+	</test>
+</suite>
